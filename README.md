@@ -4,8 +4,6 @@ Convert values into [0.0, 1.0] and that roughly looks like a probability distrib
 
 Takes an activation of the values, then converts into rough probabilities. Like Softmax, but faster and can get all 0s very easily. This is a drop in replcement for softmax in attention.
 
-Depending on the matrix size, `actmax` is orders of magnitude faster.
-
 (I renamed it to `actmax` since `actnorm` already exists so just replace that in the image)
 ![example.png](example.png)
 
